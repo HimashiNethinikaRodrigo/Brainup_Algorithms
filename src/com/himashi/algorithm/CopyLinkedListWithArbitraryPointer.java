@@ -2,6 +2,17 @@ package com.himashi.algorithm;
 
 import java.util.Hashtable;
 
+/**
+ * You are given a linked list where the node has two pointers.
+ * The first is the regular next pointer.
+ * The second pointer is called arbitrary pointer and it can point to any node in the linked list.
+ * Your job is to write code to make a deep copy of the given linked list.
+ * Here, deep copy means that any operations on the original list should not affect the copied list.
+ *
+ * Runtime Complexity: O(n)
+ * Memory Complexity: O(n)
+ *
+ */
 public class CopyLinkedListWithArbitraryPointer {
     public static void main(String[] args) {
         Node start = new Node(7);
