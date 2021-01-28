@@ -8,10 +8,15 @@ import java.util.Set;
  * determine if there are any two integers in the array whose sum is equal to the given value.
  * Return true if the sum exists and return false if it does not.
  * Consider this array and the target sums:
+ *
  * array = 5, 7, 1, 2, 8, 4, 3
  * targetSum1 = 10
  * targetSum2 = 19
- * 
+ *
+ *
+ * Runtime complexity = O(n)
+ * Runtime Complexity = O(n)
+ *
  */
 public class SumOfTwoIntegers {
     public static void main(String[] args) {

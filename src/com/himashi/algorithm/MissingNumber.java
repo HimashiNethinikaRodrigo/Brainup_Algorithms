@@ -9,6 +9,7 @@ package com.himashi.algorithm;
  * Missing number = 6
  *
  * Runtime complexity = O(n)
+ * Memory Complexity = O(1)
  *
  */
 
@@ -19,7 +20,7 @@ public class MissingNumber {
         int[] numberList = {3,7,1,2,8,4,5};
         int n = numberList.length + 1; // there is exactly one number missing
 
-        System.out.println(findMissingNumber(n, numberList));;
+        System.out.println(findMissingNumber(n, numberList));
     }
 
     private static int findMissingNumber(int n, int[] numberList) {
