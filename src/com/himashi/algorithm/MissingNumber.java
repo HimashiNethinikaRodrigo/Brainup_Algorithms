@@ -16,8 +16,8 @@ package com.himashi.algorithm;
 public class MissingNumber {
 
     public static void main(String[] args) {
-        int n = 8;
         int[] numberList = {3,7,1,2,8,4,5};
+        int n = numberList.length + 1; // there is exactly one number missing
 
         System.out.println(findMissingNumber(n, numberList));;
     }
