@@ -1,4 +1,4 @@
-package com.himashi.algorithm.bstlevelordertraversal;
+package com.himashi.algorithm.BST;
 
 public class BTUtil {
     public static Root getBST(){
