@@ -20,7 +20,7 @@ import java.util.*;
  *   50, 200
  *   25, 75, 350
  *
- *   Time Complexity: T(n)
+ *   Time Complexity: O(n)
  *
  */
 

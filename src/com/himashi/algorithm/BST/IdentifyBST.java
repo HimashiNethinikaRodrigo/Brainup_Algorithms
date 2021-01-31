@@ -1,6 +1,27 @@
 package com.himashi.algorithm.BST;
 
-import java.util.LinkedList;
+/**
+ * Given a Binary Tree, figure out whether it’s a Binary Search Tree. In a binary search tree,
+ * each node’s key value is smaller than the key value of all nodes in the right subtree,
+ * and is greater than the key values of all nodes in the left subtree.
+ * Below is an example of a binary tree that is a valid BST.
+ *
+ *       100
+ *      /   \
+ *    50     200
+ *   /  \    /  \
+ *25   75  125   350
+ *
+ * An example of a binary tree that is not a BST.
+ *       100
+ *      /   \
+ *    50     200
+ *   /  \    /  \
+ *25   75  90   350
+ *
+ * Time Complexity: O(n)
+ * Memory Complexity: O(n)
+ */
 
 public class IdentifyBST {
     public static void main(String[] args) {
