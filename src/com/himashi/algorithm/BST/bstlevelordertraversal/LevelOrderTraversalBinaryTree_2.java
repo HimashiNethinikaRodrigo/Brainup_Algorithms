@@ -29,7 +29,7 @@ import java.util.Queue;
 
 public class LevelOrderTraversalBinaryTree_2 {
     public static void main(String[] args) {
-        Root root = BTUtil.getBST();
+        Root root = BTUtil.getBST1();
         levelOrderTraversal(root);
     }
 

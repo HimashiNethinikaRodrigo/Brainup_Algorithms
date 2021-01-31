@@ -27,7 +27,7 @@ import java.util.*;
 public class LevelOrderTraversalBinaryTree_1 {
 
     public static void main(String[] args) {
-        Root root = BTUtil.getBST();
+        Root root = BTUtil.getBST1();
         if (root == null)
             System.out.println("Empty Binary Tree");
         else {
