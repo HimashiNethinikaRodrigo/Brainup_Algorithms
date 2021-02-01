@@ -1,5 +1,13 @@
 package com.himashi.algorithm;
 
+/**
+ * Suppose we have coin denominations of [1, 2, 5] and the total amount is 7.
+ * How many ways can we make changes for the amount using given coins?
+ * You're provided with infinite number of coins
+ *
+ * Runtime Complexity: O(n*m)
+ * Memory Complexity: O(n)
+ */
 public class CoinChanging {
     public static void main(String[] args) {
         int[] denominations ={1, 2, 5};
