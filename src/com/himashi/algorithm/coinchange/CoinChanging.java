@@ -1,4 +1,4 @@
-package com.himashi.algorithm;
+package com.himashi.algorithm.coinchange;
 
 /**
  * Suppose we have coin denominations of [1, 2, 5] and the total amount is 7.
