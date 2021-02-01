@@ -21,7 +21,7 @@ public class WordBreakRecursiveImplementation {
 
     }
 
-    public static boolean wordBreak(String word)
+    private static boolean wordBreak(String word)
     {
         int size = word.length();
         if (size == 0) return true;
