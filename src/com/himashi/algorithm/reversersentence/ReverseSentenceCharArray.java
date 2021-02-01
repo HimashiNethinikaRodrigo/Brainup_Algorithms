@@ -1,9 +1,16 @@
 package com.himashi.algorithm.reversersentence;
 
+/**
+ * Reverse the order of words in a given sentence (an array of characters).
+ * "Hello World!" -> "World! Hello"
+ *
+ * Runtime Complexity: O(n)
+ * Memory Complexity: O(1)
+ */
 public class ReverseSentenceCharArray {
 
     public static void main(String[] args) {
-        String sentence = "Hello World .";
+        String sentence = "Hello World!";
         char[] sentenceArray = getCharArray(sentence);
         System.out.println(sentenceArray);
         reverseSentence(sentenceArray);
@@ -40,9 +47,6 @@ public class ReverseSentenceCharArray {
             reverseString(sentenceArray, start, end-1);
             start = end + 1;
         }
-
-
-
 
     }
 
