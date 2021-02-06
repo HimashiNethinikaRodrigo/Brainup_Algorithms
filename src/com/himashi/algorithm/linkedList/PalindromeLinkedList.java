@@ -1,4 +1,4 @@
-package com.himashi.algorithm;
+package com.himashi.algorithm.linkedList;
 
 public class PalindromeLinkedList {
 
