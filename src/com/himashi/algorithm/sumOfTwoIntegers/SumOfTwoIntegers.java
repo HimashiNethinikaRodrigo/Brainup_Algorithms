@@ -1,4 +1,4 @@
-package com.himashi.algorithm;
+package com.himashi.algorithm.sumOfTwoIntegers;
 
 import java.util.HashSet;
 import java.util.Set;
